@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-    clicar():void{
-      alert("You is you")
-    }
+        algo : string = "Digite algo"
 
+        botao(): void{
+
+          alert("bobão")
+        }
 
 }
