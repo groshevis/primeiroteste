@@ -7,10 +7,18 @@
   <ion-content>
 
 
-    {{algo}}
-    <ion-input>    </ion-input>
+    {{numero}}
+    <ion-input [(ngModel)]="valor1">    </ion-input>
 
-    <ion-button (click)="botao()"> Clique aqui  </ion-button>
+    {{numero2}}
+    <ion-input [(ngModel)]="valor2">    </ion-input>
+
+    {{numero3}}
+    <ion-input [(ngModel)]="valor3">    </ion-input>
+
+    
+
+    <ion-button (click)="clicar()"> Clique aqui  </ion-button>
 
 
   </ion-content>
